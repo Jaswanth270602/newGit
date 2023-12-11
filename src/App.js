@@ -37,7 +37,7 @@ const App = () => (
         <Route path="/DSA_sheet" element={<DSA_Sheet />} />
         <Route path="/syllabus" element={<Syllabus />} />
       </Routes>
-      <marquee className="mrq">This website is not completed yet, The responsive and updated version will be released soon.Thanks for visiting our page.Thank You !!</marquee>
+      <marquee className="mrq">This website is not completed yet, The responsive and updated version will be released soon.Thanks for visiting our page.Thank You !!      If you want to provide any additional features and suggestions you can contact me through Jaswanth270602 on LinkedIn.</marquee>
     </div>
   </Router>
 );

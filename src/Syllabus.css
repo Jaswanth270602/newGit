@@ -1,0 +1,51 @@
+
+.syllabus-sheet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    margin-top: 50px;
+  }
+  
+  .subject-container {
+    max-width: 1000px;
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    font-weight: bold;
+    font-style: oblique;
+    margin-top: 50px;
+  }
+  
+  .c-language {
+    background-color: #1a1c1e; 
+    color: red; 
+  }
+  
+  .cpp-language {
+    background-color: #e74c3c; 
+    color: black; 
+  }
+  
+  .data-structures {
+    background-color: #27ae60; 
+    color: purple; 
+  }
+  
+  .subject-container h1 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  

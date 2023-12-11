@@ -1,0 +1,30 @@
+
+.dsa-sheet {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dsa-sheet h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    text-decoration: underline;
+    
+  }
+  
+  .dsa-sheet h2 {
+    margin-top: 20px;
+  }
+  
+  ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  

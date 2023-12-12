@@ -23,6 +23,12 @@ const Syllabus = () => (
       {generatePython('Python')}
     </div>
 
+    {/* Java Language Syllabus */}
+    <div className="subject-container cpp-language">
+      <h1>Java Language Syllabus</h1>
+      {generateJava('Java')}
+    </div>
+
     {/* Data Structures Syllabus */}
     <div className="subject-container data-structures">
       <h1>Data Structures Syllabus (CPP & Java)</h1>
@@ -63,6 +69,44 @@ const generateDayWiseSchedule = (subject) => {
   );
 };
 
+const generateJava = (subject) => {
+  const commonSyllabusJ = [
+    'Introduction to the language',
+    'Variables and Data Types',
+    'Basic Input/Output',
+    'Control Flow Statements',
+    'Loops',
+    'Functions (Part 1)',
+    'Functions (Part 2)',
+    'Arrays (Part 1)',
+    'Arrays (Part 2)',
+    'Strings',
+    'Classes/Objects',
+    'Attributes and Methods',
+    'Constructors and Modifiers',
+    'Inheritance',
+    'Polymorphism',
+    'Encapsulation',
+    'Abstraction',
+    'Interface',
+    'ArrayList',
+    'LinkedList',
+    'HashMap',
+    'HashSet',
+    'Wrapper Classes',
+    'Exception Handling',
+    'Diamond Problem',
+  ];
+
+  return (
+    <ul>
+      {commonSyllabusJ.map((topic, index) => (
+        <li key={index}>{`Day ${index + 1}: ${topic}`}</li>
+      ))}
+      <li>Day 21-25: Problem Solving and Practice</li>
+    </ul>
+  );
+};
 
 const generateDataStructuresSchedule = () => {
   

@@ -14,7 +14,7 @@ const Syllabus = () => (
     {/* C++ Language Syllabus */}
     <div className="subject-container cpp-language">
       <h1>C++ Language Syllabus</h1>
-      {generateDayWiseSchedule('C++')}
+      {generateCpp('C++')}
     </div>
 
      {/* Python */}
@@ -65,6 +65,44 @@ const generateDayWiseSchedule = (subject) => {
         <li key={index}>{`Day ${index + 1}: ${topic}`}</li>
       ))}
       <li>Day 18-25: Problem Solving and Practice</li>
+    </ul>
+  );
+};
+
+const generateCpp = (subject) => {
+  const commonSyllabusCpp = [
+    'Introduction to the language',
+    'Variables and Data Types',
+    'Basic Input/Output',
+    'Control Flow Statements',
+    'Loops',
+    'Functions (Part 1)',
+    'Functions (Part 2)',
+    'Arrays (Part 1)',
+    'Arrays (Part 2)',
+    'Strings (Part 1)',
+    'Strings (Part 2)',
+    'Pointers',
+    'Classes/Objects',
+    'Constructors and Modifiers',
+    'Inheritance',
+    'Abstraction',
+    'Polymorphism',
+    'Encapsulation',
+    'Standard Templates & Libraries STL (Part-1)',
+    'Standard Templates & Libraries STL (Part-2)',
+    'Standard Templates & Libraries STL (Part-3)',
+    'Standard Templates & Libraries STL (Part-4)',
+    'Pattern Printing',
+    
+  ];
+
+  return (
+    <ul>
+      {commonSyllabusCpp.map((topic, index) => (
+        <li key={index}>{`Day ${index + 1}: ${topic}`}</li>
+      ))}
+      <li>Day 24-27: Problem Solving and Practice</li>
     </ul>
   );
 };

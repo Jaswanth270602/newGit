@@ -103,6 +103,8 @@ const generateDataStructuresSchedule = () => {
   );
 };
 
+
+
 const generatePython = (subject) => {
   const commonSyllabusP = [
     'Introduction to the language',
@@ -121,7 +123,7 @@ const generatePython = (subject) => {
     'Inheritance',
     'Polymorphism',
     'Encapsulation',
-    'Abstractcion',
+    'Abstractcion',  // <-- Add a comma here
     'Pattern Printing',
     'Problem Solving (Day 1)',
     'Problem Solving (Day 2)',
@@ -136,4 +138,7 @@ const generatePython = (subject) => {
     </ul>
   );
 };
+
+
+
 export default Syllabus;

@@ -17,6 +17,12 @@ const Syllabus = () => (
       {generateDayWiseSchedule('C++')}
     </div>
 
+     {/* Python */}
+    <div className="subject-container c-language">
+      <h1>Python Language Syllabus</h1>
+      {generatePython('Python')}
+    </div>
+
     {/* Data Structures Syllabus */}
     <div className="subject-container data-structures">
       <h1>Data Structures Syllabus (CPP & Java)</h1>
@@ -97,4 +103,37 @@ const generateDataStructuresSchedule = () => {
   );
 };
 
+const generatePython = (subject) => {
+  const commonSyllabusP = [
+    'Introduction to the language',
+    'Variables and Data Types',
+    'Basic Input/Output',
+    'Control Flow Statements',
+    'Operators',
+    'Loops',
+    'Strings',
+    'Functions (Part 1)',
+    'Functions (Part 2)',
+    'Lists',
+    'Tuples',
+    'Dictionary',
+    'Class & Object',
+    'Inheritance',
+    'Polymorphism',
+    'Encapsulation',
+    'Abstractcion'
+    'Pattern Printing',
+    'Problem Solving (Day 1)',
+    'Problem Solving (Day 2)',
+  ];
+
+  return (
+    <ul>
+      {commonSyllabusP.map((topic, index) => (
+        <li key={index}>{`Day ${index + 1}: ${topic}`}</li>
+      ))}
+      <li>Day 20-25: Problem Solving and Practice</li>
+    </ul>
+  );
+};
 export default Syllabus;

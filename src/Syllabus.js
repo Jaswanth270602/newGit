@@ -19,7 +19,7 @@ const Syllabus = () => (
 
     {/* Data Structures Syllabus */}
     <div className="subject-container data-structures">
-      <h1>Data Structures Syllabus</h1>
+      <h1>Data Structures Syllabus (CPP & Java)</h1>
       {generateDataStructuresSchedule()}
     </div>
   </div>

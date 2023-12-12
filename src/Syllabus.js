@@ -121,7 +121,7 @@ const generatePython = (subject) => {
     'Inheritance',
     'Polymorphism',
     'Encapsulation',
-    'Abstractcion'
+    'Abstractcion',
     'Pattern Printing',
     'Problem Solving (Day 1)',
     'Problem Solving (Day 2)',
